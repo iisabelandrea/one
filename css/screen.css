@@ -9,12 +9,50 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ===== BASE STYLES ===== */
 
 /*
-  Setting type to a minor third modular scale
-  http://www.modularscale.com/?18&px&1.2&web&text
+  Setting the type to minor third modular scale
+  http://www.modularscale.com/?1&em&1.067&web&text
+
 */
 
 html {
-  font-size: 1.125em; /* 20px */
-  line-height: 1.222em; /* 22px = 1 gridline*/
-  padding: 1.125em .625em; /* 16.5px */
+  font-size: 1.138em; /* 18.208px */
+  line-height: 1.208em; /* 22px/ 19.4= 1 gridline*/
+  padding: 1.208em 1em; /**/
+  background-color: #DAC0AD;
+  font-family: georgia;
+}
+
+h3 {
+  font-size: 1.383em; /* 22.128 */
+  line-height: 1.132em;
+  padding: 1.132em 1 em;
+}
+
+header {
+  font-weight: bold;
+}
+
+.education {
+  font-weight: bold;
+}
+
+.work-experience {
+  font-size: 1.138
+  font-weight: bold;
+  padding-bottom: 15px; /* Will Convert */
+}
+
+ul {
+  font-size: 1em;
+  line-height:1.208em;
+  text-indent: 1em;
+}
+
+li  {
+  font-size: 1em;
+  padding-bottom: 15px; /* Will Convert */
+{
+
+p {
+  font-size: 1em;
 }
