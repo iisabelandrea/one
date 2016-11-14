@@ -9,16 +9,16 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ===== BASE STYLES ===== */
 
 /*
-  Setting the type to minor third modular scale
+  Setting the type to minor second modular scale
   http://www.modularscale.com/?1&em&1.067&web&text
 
 */
 
 html {
-  font-size: 1.138em; /* 18.208px */
-  line-height: 1.208em; /* 22px/ 19.4= 1 gridline*/
+  font-size: 1.067em; /* 17.072px */
+  line-height: 1.289em; /* 22px / 17.072px = 1 gridline*/
   padding: 1.208em 1em; /**/
-  background-color: #DAC0AD;
+  background-color: #f9f9f2;
   font-family: georgia;
 }
 
