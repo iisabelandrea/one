@@ -6,53 +6,72 @@
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
 
-/* ===== BASE STYLES ===== */
-
 /*
   Setting the type to minor second modular scale
   http://www.modularscale.com/?1&em&1.067&web&text
 
 */
 
+/* ===== BASE STYLES ===== */
+
 html {
-  font-size: 1.067em; /* 17.072px */
-  line-height: 1.289em; /* 22px / 17.072px = 1 gridline*/
-  padding: 1.208em 1em; /**/
+  font-size: 1em; /* 16 px */
+  line-height: 1.5em; /* 24px / 16px = 1 gridline*/
+  padding: .5em; /* 8 px*/
   background-color: #f9f9f2;
   font-family: georgia;
 }
 
-h3 {
-  font-size: 1.383em; /* 22.128 */
-  line-height: 1.132em;
-  padding: 1.132em 1 em;
+img,
+video {
+  display: block;
+  max-width: 100%;
 }
 
-header {
+/* ===== MODULAR STYLES ===== */
+/* ===== Resume ===== */
+.p-name {
+  font-size:  1.296em;
+  padding-bottom: 0.5em;
+}
+
+.p-edu{
+  font-size: 1.215em; /*1.215 */
+  padding-top: .5em;
+}
+
+ .schools {
+  font-weight:bold;
+  padding: .5em;
+}
+
+  .degree {
+  font-weight: normal;
+}
+
+  .p-work {
+  font-size: 1.215em; /*1.215 */
+  padding-top: .5em;
+}
+
+  .pos {
   font-weight: bold;
+  padding: .5em;
 }
 
-.education {
-  font-weight: bold;
+  .resp {
+  font-weight:normal;
 }
 
-.work-experience {
-  font-size: 1.138
-  font-weight: bold;
-  padding-bottom: 15px; /* Will Convert */
+  .skills {
+  font-size: 1.215em;
+  padding-top: .5em;
 }
 
-ul {
-  font-size: 1em;
-  line-height:1.208em;
-  text-indent: 1em;
+  .skil {
+  font-size: .823em;
+  padding: .5em;
 }
 
-li  {
-  font-size: 1em;
-  padding-bottom: 15px; /* Will Convert */
-{
+/* ===== Personal ===== */
 
-p {
-  font-size: 1em;
-}
