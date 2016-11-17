@@ -17,10 +17,46 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1em; /* 16 px */
   line-height: 1.5em; /* 24px / 16px = 1 gridline*/
-  padding: .5em; /* 8 px*/
-  background-color: #B8F0E3; /*f9f9f2*/
+  padding: .5em; /* 24px / 16px = 1 gridline, 8px / 16x */
+  background-color: #D3CBB7; /*f9f9f2*/
   font-family: georgia;
 }
+
+/* Navigation */
+
+nav ul {
+  font-size: 1.296em;
+  line-height: 1.10902em;
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  text-align:center;
+  display: inline-block;
+  background-color: #D3B7BD;
+
+}
+
+nav ul li a {
+  display: block;
+  font-family: Calibri, Helvetica;
+  color: #EBE7E8;
+  text-align: center;
+  text-decoration: none;
+  border: 0.125em solid white;
+}
+
+
+/* ===== LAYOUT STYLES ===== */
+
+img, photo {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+ }
 
 img,
 video {
@@ -29,7 +65,7 @@ video {
 }
 
 /* ===== MODULAR STYLES ===== */
-/* Resume */
+
 .p-name {
   font-size:  1.296em;
 }
