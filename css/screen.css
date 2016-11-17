@@ -45,7 +45,7 @@ nav ul li a {
   font-family: georgia;
   color: #4B380A;
   text-decoration: none;
-  border: none;
+  border: dotted;
 }
 
 /* ===== LAYOUT STYLES ===== */
