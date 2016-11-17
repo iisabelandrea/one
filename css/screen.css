@@ -67,17 +67,17 @@ video {
 /* ===== MODULAR STYLES ===== */
 
 .p-name {
-  font-size:  1.296em;
+  font-size:  1.296em; /* 20.736 / 16 px = 1.296em */
 }
 
 .p-edu{
-  font-size: 1.215em; /*1.215 */
-  padding-top: .5em;
+  font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
+  padding-top: .5em; /* 8 / 16 px */
 }
 
  .schools {
   font-weight:bold;
-  padding: .5em;
+  padding: .5em; /* 8 / 16 px */
 }
 
   .degree {
@@ -85,13 +85,13 @@ video {
 }
 
   .p-work {
-  font-size: 1.215em; /*1.215 */
-  padding-top: .5em;
+  font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
+  padding-top: .5em; /* 8 / 16 px */
 }
 
   .pos {
   font-weight: bold;
-  padding: .5em;
+  padding: .5em; /* 8 / 16 px */
 }
 
   .resp {
@@ -99,53 +99,52 @@ video {
 }
 
   .skills {
-  font-size: 1.215em;
-  padding-top: .5em;
+  font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
+  padding-top: .5em; /* 8 / 16 px */
 }
 
   .skil {
-  font-size: .823em;
-  padding: .5em;
+  font-size: .823em; /* 13.168 / 16 px = .823em */
+  padding: .5em; /* 8 / 16 px */
+}
+
+.intro h2 {
+  font size: 1.575em; /* 25.2 / 16 px = .1.575em */
+  font-style: oblique;
+  text-align: center;
+  padding-top: 1em; /* 16px */
+  padding-bottom: 1em; /* 16px */
 }
 
 /* Personal */
  .sum {
-  font-size: 1.215em;
-  padding-bottom: .5em;
+  font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
+  padding-bottom: .5em; /* 8 / 16 px */
 }
 
   .favorites {
-  font-size: 1.215em;
-  padding-top: .5em;
-  padding-bottom: .5em;
+  font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
+  padding-top: .5em; /* 8 / 16 px */
+  padding-bottom: .5em; /* 8 / 16 px */
 }
 
   .tvshow {
-  font-size: .823em;
-  padding-bottom: .5em;
+  font-size: .823em; /* 13.168 / 16 px = .823em */
+  padding-bottom: .5em; /* 8 / 16 px */
 }
 
   .kids {
-  font-size: 1.215em;
-  padding-top: .5em;
-  padding-bottom: .5em;
+  font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
+  padding-top: .5em; /* 8 / 16 px */
+  padding-bottom: .5em; /* 8 / 16 px */
 }
 
   p,figcaption {
-  line-height: .867 em;
-  font-size: .937em;
-  padding-bottom: .5em;
+  line-height: .867 em; /* 13.872 / 16 px = .867em */
+  font-size: .937em; /* 14.992 / 16 px = .937em */
+  padding-bottom: .5em; /* 8 / 16 px */
 }
 
   .footer {
-  font-size: .878em;
+  font-size: .878em; /* 13.872 / 16 px = .867em */
 }
-
-  .intro h2 {
-  font size: 1.575em;
-  font-style: oblique;
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
