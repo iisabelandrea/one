@@ -30,6 +30,7 @@ nav ul {
   width: 100%;
   list-style-type: none;
   text-align: center;
+  padding: .5em;
 }
 
 nav ul li {
