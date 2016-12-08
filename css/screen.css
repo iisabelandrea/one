@@ -116,7 +116,6 @@ video {
   padding-bottom: 1em; /* 16px */
 }
 
-/* Personal */
  .sum {
   font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
   padding-bottom: .5em; /* 8 / 16 px */
@@ -148,3 +147,13 @@ video {
   .footer {
   font-size: .878em; /* 13.872 / 16 px = .867em */
 }
+
+
+/* ===== STATE STYLES ===== */
+  @media screen and (min-width: 20em) { /*320 pixels*/
+  #footer{
+    text-align: center;
+  }
+}
+
+
