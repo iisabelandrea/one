@@ -156,4 +156,52 @@ video {
   }
 }
 
+  @media screen and (min-width: 37.5em) { /*600 pixels*/
+/* resume page */
+  .p-name,
+  .p-edu,
+  .p-work,
+  .skills h2  {
+  text-align:center;
+  display: block;
+  background-color: #F2E3E6;
+  padding-top: 0em;
+}
+
+  .h-card {
+  text-align: center;
+}
+
+/* nailsbymaria page */
+  #main {
+  text-align:center;
+  display: block;
+  background-color: #F2E3E6;
+  padding-bottom: 0em;
+}
+
+/* aboutme page */
+
+/*Attempting to center video */
+  .video, controls {
+  display: block;
+  max-width: 100%;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  h2  {
+  text-align:center;
+  display: block;
+  background-color: #F2E3E6;
+  padding-bottom: 0em;
+}
+
+  .tvshow {
+  text-align:center;
+}
+
+
+}
 
