@@ -66,86 +66,89 @@ video {
 
 /* ===== MODULAR STYLES ===== */
 
-.p-name {
-  font-size:  1.296em; /* 20.736 / 16 px = 1.296em */
+  .p-name {
+    font-size:  1.296em; /* 20.736 / 16 px = 1.296em */
 }
 
-.p-edu{
-  font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
-  padding-top: .5em; /* 8 / 16 px */
+  .p-edu{
+    font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
+    padding-top: .5em; /* 8 / 16 px */
 }
 
  .schools {
-  font-weight:bold;
-  padding: .5em; /* 8 / 16 px */
+    font-weight:bold;
+    padding: .5em; /* 8 / 16 px */
 }
 
   .degree {
-  font-weight: normal;
+    font-weight: normal;
 }
 
   .p-work {
-  font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
-  padding-top: .5em; /* 8 / 16 px */
+    font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
+    padding-top: .5em; /* 8 / 16 px */
 }
 
   .pos {
-  font-weight: bold;
-  padding: .5em; /* 8 / 16 px */
+    font-weight: bold;
+    padding: .5em; /* 8 / 16 px */
 }
 
   .resp {
-  font-weight:normal;
+    font-weight:normal;
 }
 
   .skills {
-  font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
-  padding-top: .5em; /* 8 / 16 px */
+    font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
+    padding-top: .5em; /* 8 / 16 px */
 }
 
   .skil {
-  font-size: .823em; /* 13.168 / 16 px = .823em */
-  padding: .5em; /* 8 / 16 px */
+    font-size: .823em; /* 13.168 / 16 px = .823em */
+    padding: .5em; /* 8 / 16 px */
 }
 
-.intro h2 {
-  font size: 1.575em; /* 25.2 / 16 px = .1.575em */
-  font-style: oblique;
-  text-align: center;
-  padding-top: 1em; /* 16px */
-  padding-bottom: 1em; /* 16px */
+  .intro h2 {
+    font size: 1.575em; /* 25.2 / 16 px = .1.575em */
+    font-style: oblique;
+    text-align: center;
+    padding-top: 1em; /* 16px */
+    padding-bottom: 1em; /* 16px */
 }
 
- .sum {
-  font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
-  padding-bottom: .5em; /* 8 / 16 px */
+  .sum {
+    font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
+    padding-bottom: .5em; /* 8 / 16 px */
 }
 
   .favorites {
-  font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
-  padding-top: .5em; /* 8 / 16 px */
-  padding-bottom: .5em; /* 8 / 16 px */
+    font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
+    padding-top: .5em; /* 8 / 16 px */
+    padding-bottom: .5em; /* 8 / 16 px */
 }
 
   .tvshow {
-  font-size: .823em; /* 13.168 / 16 px = .823em */
-  padding-bottom: .5em; /* 8 / 16 px */
+    font-size: .823em; /* 13.168 / 16 px = .823em */
+    padding-bottom: .5em; /* 8 / 16 px */
+    text-align:center;
+}
+
 }
 
   .kids {
-  font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
-  padding-top: .5em; /* 8 / 16 px */
-  padding-bottom: .5em; /* 8 / 16 px */
+    font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
+    padding-top: .5em; /* 8 / 16 px */
+    padding-bottom: .5em; /* 8 / 16 px */
 }
 
   p,figcaption {
-  line-height: .867 em; /* 13.872 / 16 px = .867em */
-  font-size: .937em; /* 14.992 / 16 px = .937em */
-  padding-bottom: .5em; /* 8 / 16 px */
+    line-height: .867 em; /* 13.872 / 16 px = .867em */
+    font-size: .937em; /* 14.992 / 16 px = .937em */
+    padding-bottom: .5em; /* 8 / 16 px */
 }
 
   .footer {
-  font-size: .878em; /* 13.872 / 16 px = .867em */
+    font-size: .878em; /* 13.872 / 16 px = .867em */
 }
 
 
@@ -157,51 +160,105 @@ video {
 }
 
   @media screen and (min-width: 37.5em) { /*600 pixels*/
-/* resume page */
+  /* resume page */
   .p-name,
   .p-edu,
   .p-work,
   .skills h2  {
-  text-align:center;
-  display: block;
-  background-color: #F2E3E6;
-  padding-top: 0em;
+    text-align:center;
+    display: block;
+    background-color: #F2E3E6;
+    padding-top: 0em;
 }
 
   .h-card {
-  text-align: center;
+    text-align: center;
 }
 
 /* nailsbymaria page */
   #main {
-  text-align:center;
-  display: block;
-  background-color: #F2E3E6;
-  padding-bottom: 0em;
+    text-align:center;
+    display: block;
+    background-color: #F2E3E6;
+    padding-bottom: 0em;
 }
 
 /* aboutme page */
 
 /*Attempting to center video */
   .video, controls {
-  display: block;
-  max-width: 100%;
-  position: center;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    max-width: 100%;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
   h2  {
-  text-align:center;
-  display: block;
-  background-color: #F2E3E6;
-  padding-bottom: 0em;
+    text-align:center;
+    display: block;
+    background-color: #F2E3E6;
+    padding-bottom: 0em;
 }
 
   .tvshow {
-  text-align:center;
+    text-align:center;
+}
+
+  @media screen and (min-width: 50em) { /*800 pixels*/
+  /* resume page */
+  .p-name,
+  .p-edu,
+  .p-work,
+  .skills h2  {
+    text-align:center;
+    display: inline-block;
+    background-color: #F2E3E6;
+    padding-top: 0em;
+}
+
+  .h-card {
+    text-align: center;
 }
 
 
+/* aboutme page */
+
+  p {
+    padding-left:15em;
+    padding-right:15em;
+    text-align:center;
 }
+
+/* nailsbymaria page */
+ img {
+  width: 18.75em; /*300px / 16px */
+  height: 18.75em; /*300px / 16px */
+  }
+  #one, #two {
+    width: 33%;
+    float: left;
+}
+  #three , #four {
+    width: 33%;
+    float: right;
+}
+  #five , #six {
+    width: 33%;
+    float: right;
+}
+  #seven, #eight {
+    width: 33%;
+    float: left;
+}
+  #nine , #ten {
+    width: 33%;
+    float: left;
+}
+  #eleven , #twelve {
+    width: 33%;
+    float: right;
+}
+
+}/*end*/
 
