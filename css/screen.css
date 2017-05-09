@@ -15,12 +15,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ===== BASE STYLES ===== */
 
 html {
-  font-size: 1em; /* 16 px */
+  font-size: 1.125em; /* 18 px / 16 */
   line-height: 1.5em; /* 24px / 16px = 1 gridline*/
   padding: .5em; /* 24px / 16px = 1 gridline, 8px / 16x */
   background-color: #D3CBB7; /*f9f9f2*/
-  font-family: 'Catamaran', sans-serif;
   font-family: 'Gentium Basic', serif;
+  font-family: 'Lora', serif;
+  font-family: 'Sacramento', cursive;
+  font-family: 'Ruluko', sans-serif;
 }
 
 /* Navigation */
@@ -68,7 +70,9 @@ video {
 /* ===== MODULAR STYLES ===== */
 
   .p-name {
-    font-size:  1.296em; /* 20.736 / 16 px = 1.296em */
+    font-size:  3.296em; /* 20.736 / 16 px = 1.296em */
+    font-family: 'Sacramento', cursive;
+    padding-top:.5em;
 }
 
   .p-edu{
@@ -222,14 +226,6 @@ video {
     text-align: center;
 }
 
-
-/* aboutme page */
-
-  p {
-    padding-left:15em;
-    padding-right:15em;
-    text-align:center;
-}
 
 /* nailsbymaria page */
  img {
