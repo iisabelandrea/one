@@ -19,7 +19,8 @@ html {
   line-height: 1.5em; /* 24px / 16px = 1 gridline*/
   padding: .5em; /* 24px / 16px = 1 gridline, 8px / 16x */
   background-color: #D3CBB7; /*f9f9f2*/
-  font-family: georgia;
+  font-family: 'Catamaran', sans-serif;
+  font-family: 'Gentium Basic', serif;
 }
 
 /* Navigation */
@@ -43,7 +44,7 @@ nav ul li {
 nav ul li a {
   display: block;
   text-align: center;
-  font-family: georgia;
+  /* font-family: georgia; */
   color: #4B380A;
   text-decoration: none;
   border: dotted;
