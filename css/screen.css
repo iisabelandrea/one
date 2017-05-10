@@ -7,49 +7,23 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /*
-  Setting the type to minor second modular scale
+  Setting the type to minor third modular scale 4:5
   http://www.modularscale.com/?1&em&1.067&web&text
 
+<!--http://paletton.com/#uid=1000u0k5zuM00++1hSdaPl+ds9Q || #7D6262-->
 */
 
 /* ===== BASE STYLES ===== */
 
 html {
   font-size: 1.125em; /* 18 px / 16 */
-  line-height: 1.5em; /* 24px / 16px = 1 gridline*/
-  padding: .5em; /* 24px / 16px = 1 gridline, 8px / 16x */
-  background-color: #D3CBB7; /*f9f9f2*/
-  font-family: 'Gentium Basic', serif;
+  line-height: 1.222em; /* 22px / 18px = 1 gridline*/
+  background-color: #F5CBCB; /*f9f9f2*/
   font-family: 'Lora', serif;
   font-family: 'Sacramento', cursive;
   font-family: 'Ruluko', sans-serif;
-}
-
-/* Navigation */
-
-nav ul {
-  font-size: 1.138em;
-  line-height: 1.10902em;
-  width: 100%;
-  list-style-type: none;
-  text-align: center;
-  padding: .5em;
-}
-
-nav ul li {
-  text-align:center;
-  display: inline-block;
-  background-color: #F2E3E6;
-
-}
-
-nav ul li a {
-  display: block;
-  text-align: center;
-  /* font-family: georgia; */
-  color: #4B380A;
-  text-decoration: none;
-  border: dotted;
+  font-family: 'Gentium Basic', serif;
+  color: #332426;
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -69,193 +43,69 @@ video {
 
 /* ===== MODULAR STYLES ===== */
 
-  .p-name {
-    font-size:  3.296em; /* 20.736 / 16 px = 1.296em */
-    font-family: 'Sacramento', cursive;
-    padding-top:.5em;
+  .bio {
+  font-size: 1.296em; /*36px/18px */
+  text-transform: uppercase;
+  padding-top:.5em;
+  color:#7D6262;
 }
 
-  .p-edu{
-    font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
-    padding-top: .5em; /* 8 / 16 px */
+  .shortbio {
+  font-size: 1.215;
+  padding-top:.5em;
+  text-transform: uppercase;
+  color:#fff;
 }
 
- .schools {
-    font-weight:bold;
-    padding: .5em; /* 8 / 16 px */
+  a:link {
+  color:#fff;
+  text-decoration:none;
+}
+  a:hover {
+  color:#7D6262;
 }
 
-  .degree {
-    font-weight: normal;
+  .u-email, u-url {
+  font-size: 1em;
+  padding-top: .25em;
 }
 
-  .p-work {
-    font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
-    padding-top: .5em; /* 8 / 16 px */
+h3 {
+  font-size: 1.476em;
+  padding-top: .5em;
+  padding-bottom: .25em;
+  padding-left: .25em;
 }
 
-  .pos {
-    font-weight: bold;
-    padding: .5em; /* 8 / 16 px */
+  .education, .courses{
+  padding-left: .25em;
 }
 
-  .resp {
-    font-weight:normal;
+h4, .degree, .activity, li {
+  padding-left: .5em;
 }
 
-  .skills {
-    font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
-    padding-top: .5em; /* 8 / 16 px */
+  .school {
+  padding-left: 1.25em;
+  padding-bottom: .50em;
+  font-style: italic;
 }
 
-  .skil {
-    font-size: .823em; /* 13.168 / 16 px = .823em */
-    padding: .5em; /* 8 / 16 px */
-}
-
-  .intro h2 {
-    font size: 1.575em; /* 25.2 / 16 px = .1.575em */
-    font-style: oblique;
-    text-align: center;
-    padding-top: 1em; /* 16px */
-    padding-bottom: 1em; /* 16px */
-}
-
-  .sum {
-    font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
-    padding-bottom: .5em; /* 8 / 16 px */
-}
-
-  .favorites {
-    font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
-    padding-top: .5em; /* 8 / 16 px */
-    padding-bottom: .5em; /* 8 / 16 px */
-}
-
-  .tvshow {
-    font-size: .823em; /* 13.168 / 16 px = .823em */
-    padding-bottom: .5em; /* 8 / 16 px */
-    text-align:center;
-}
-
-}
-
-  .kids {
-    font-size: 1.215em; /* 19.44 / 16 px = 1.215em */
-    padding-top: .5em; /* 8 / 16 px */
-    padding-bottom: .5em; /* 8 / 16 px */
-}
-
-  p,figcaption {
-    line-height: .867 em; /* 13.872 / 16 px = .867em */
-    font-size: .937em; /* 14.992 / 16 px = .937em */
-    padding-bottom: .5em; /* 8 / 16 px */
-}
-
-  .footer {
-    font-size: .878em; /* 13.872 / 16 px = .867em */
-}
 
 
 /* ===== STATE STYLES ===== */
   @media screen and (min-width: 20em) { /*320 pixels*/
-  #footer{
-    text-align: center;
-  }
-}
+
+}/* End 320px */
 
   @media screen and (min-width: 37.5em) { /*600 pixels*/
-  /* resume page */
-  .p-name,
-  .p-edu,
-  .p-work,
-  .skills h2  {
-    text-align:center;
-    display: block;
-    background-color: #F2E3E6;
-    padding-top: 0em;
-}
 
-  .h-card {
-    text-align: center;
-}
-
-/* nailsbymaria page */
-  #main {
-    text-align:center;
-    display: block;
-    background-color: #F2E3E6;
-    padding-bottom: 0em;
-}
-
-/* aboutme page */
-
-/*Attempting to center video */
-  .video, controls {
-    display: block;
-    max-width: 100%;
-    position: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-  h2  {
-    text-align:center;
-    display: block;
-    background-color: #F2E3E6;
-    padding-bottom: 0em;
-}
-
-  .tvshow {
-    text-align:center;
-}
+}/* End 600px */
 
   @media screen and (min-width: 50em) { /*800 pixels*/
-  /* resume page */
-  .p-name,
-  .p-edu,
-  .p-work,
-  .skills h2  {
-    text-align:center;
-    display: inline-block;
-    background-color: #F2E3E6;
-    padding-top: 0em;
-}
 
-  .h-card {
-    text-align: center;
-}
+}/* End 800px */
 
-
-/* nailsbymaria page */
- img {
-  width: 18.75em; /*300px / 16px */
-  height: 18.75em; /*300px / 16px */
-  }
-  #one, #two {
-    width: 33%;
-    float: left;
-}
-  #three , #four {
-    width: 33%;
-    float: right;
-}
-  #five , #six {
-    width: 33%;
-    float: right;
-}
-  #seven, #eight {
-    width: 33%;
-    float: left;
-}
-  #nine , #ten {
-    width: 33%;
-    float: left;
-}
-  #eleven , #twelve {
-    width: 33%;
-    float: right;
-}
 
 }/*end*/
 
