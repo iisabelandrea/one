@@ -43,6 +43,9 @@ video {
 
 /* ===== MODULAR STYLES ===== */
 
+  h1 {
+  padding-left:.5em;
+}
   .bio {
   font-size: 1.296em; /*36px/18px */
   text-transform: uppercase;
@@ -70,25 +73,39 @@ video {
   padding-top: .25em;
 }
 
-h3 {
+  h3 {
   font-size: 1.476em;
   padding-top: .5em;
   padding-bottom: .25em;
   padding-left: .25em;
 }
 
-  .education, .courses{
-  padding-left: .25em;
+  h4 , li {
+  padding-left: 1.25em;
+}
+  .stat {
+  padding-left: .5em;
+  text-transform:uppercase;
+  font-style:bold;
 }
 
-h4, .degree, .activity, li {
+  .date {
+  padding-top: .5em;
+  }
+
+  .company, .location, .school, .position {
+  padding-left:1.25em;
+  text-transform:uppercase;
+}
+
+  .activity {
   padding-left: .5em;
 }
-
-  .school {
-  padding-left: 1.25em;
-  padding-bottom: .50em;
-  font-style: italic;
+  .degree {
+  padding-left:.5em;
+}
+  li {
+  padding-bottom: .25em;
 }
 
 
