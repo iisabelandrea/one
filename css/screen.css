@@ -83,10 +83,16 @@ video {
   h4 , li {
   padding-left: 1.25em;
 }
+  h5 {
+  text-transform:uppercase;
+  padding-top: .5em;
+  text-decoration: underline;
+  }
+
   .stat {
   padding-left: .5em;
   text-transform:uppercase;
-  font-style:bold;
+  text-decoration:bold;
 }
 
   .date {
@@ -108,6 +114,15 @@ video {
   padding-bottom: .25em;
 }
 
+  footer {
+  text-align: center;
+  font-size: .937em;
+  padding-left:.25em;
+  padding-right: .25em;
+  padding-bottom:.5em;
+  padding-top: .5em;
+
+  }
 
 
 /* ===== STATE STYLES ===== */
