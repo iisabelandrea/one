@@ -31,8 +31,10 @@ html {
 img, photo {
   display: block;
   max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+
+  border-radius: 8px;
+  border: .5em solid #ddd;
+}
  }
 
 img,
@@ -117,8 +119,8 @@ video {
   footer {
   text-align: center;
   font-size: .937em;
-  padding-left:.25em;
-  padding-right: .25em;
+  padding-left:.50em;
+  padding-right: .50em;
   padding-bottom:.5em;
   padding-top: .5em;
 
