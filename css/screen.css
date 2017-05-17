@@ -30,18 +30,11 @@ html {
 
 img, photo {
   display: block;
-  max-width: 100%;
-
-  border-radius: 8px;
-  border: .5em solid #ddd;
-}
+  margin: auto;
+  max-width: 97.5%;
+  border: .25em solid #af7474;
  }
 
-img,
-video {
-  display: block;
-  max-width: 100%;
-}
 
 /* ===== MODULAR STYLES ===== */
 
@@ -130,9 +123,17 @@ video {
 /* ===== STATE STYLES ===== */
   @media screen and (min-width: 20em) { /*320 pixels*/
 
+
 }/* End 320px */
 
   @media screen and (min-width: 37.5em) { /*600 pixels*/
+    img, photo {
+  display: block;
+  border-radius: 8px;
+  margin: auto;
+  max-width: 95.5%;
+  border: .50em solid #ddd;
+ }
 
 }/* End 600px */
 
