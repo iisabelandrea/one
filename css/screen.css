@@ -111,11 +111,10 @@ img, photo {
 
   footer {
   text-align: center;
-  font-size: .937em;
-  padding-left:.50em;
-  padding-right: .50em;
-  padding-bottom:.5em;
-  padding-top: .5em;
+  font-size: .878em;
+  padding: .25em;
+
+  background:rgba(0,0,0,0.5);
 
   }
 
